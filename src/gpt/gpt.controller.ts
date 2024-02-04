@@ -1,5 +1,4 @@
 import { Body, Controller, HttpStatus, Post, Res, UsePipes, ValidationPipe } from '@nestjs/common';
-import { QuestionDto } from '../dtos/question.dto';
 import { GptService } from './gpt.service';
 
 import type { Response } from 'express';
