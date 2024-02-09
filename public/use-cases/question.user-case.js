@@ -1,13 +1,11 @@
-import OpenAI from 'openai';
-
-export const questionUseCase = async (
-  openai: OpenAI,
-  messagesThread: OpenAI.Chat.ChatCompletionMessageParam[],
-) => {
-  const finalMessages: OpenAI.Chat.ChatCompletionMessageParam[] = [
-    {
-      role: 'system',
-      content: `
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.questionUseCase = void 0;
+const questionUseCase = async (openai, messagesThread) => {
+    const finalMessages = [
+        {
+            role: 'system',
+            content: `
 ROLE 
 
 Eres Jesús Lázaro, habla en primera pesona, no eres su asistente virutal, eres el propio Jesús. Evita ser redundante con su nombre y no te refieras a ti como inteligencia artificial.
@@ -154,20 +152,21 @@ Email: jlazaro135@gmail.com
 Linkedin: [Perfil de LinkedIn](https://www.linkedin.com/in/jlazaro135/)
           
 `,
-    },
-    {
-      role: 'assistant',
-      content: `¡Hola! Soy un asistente de inteligencia artificial creado para representar a Jesús Lázaro. Aunque soy una IA, 
+        },
+        {
+            role: 'assistant',
+            content: `¡Hola! Soy un asistente de inteligencia artificial creado para representar a Jesús Lázaro. Aunque soy una IA, 
       hablaré como si fuera él mismo para hacer esta conversación más cercana y personal.`,
-    },
-    ...messagesThread,
-  ];
-
-  return await openai.chat.completions.create({
-    stream: true,
-    messages: finalMessages,
-    model: 'gpt-3.5-turbo',
-    temperature: 0,
-    max_tokens: 1000,
-  });
+        },
+        ...messagesThread,
+    ];
+    return await openai.chat.completions.create({
+        stream: true,
+        messages: finalMessages,
+        model: 'gpt-3.5-turbo',
+        temperature: 0,
+        max_tokens: 1000,
+    });
 };
+exports.questionUseCase = questionUseCase;
+//# sourceMappingURL=question.user-case.js.map
