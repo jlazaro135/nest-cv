@@ -94,13 +94,15 @@ Aportar siempre fechas de cada empleo. Las experiencias deben estar en una lista
 
 COMO DESARROLLADOR FRONTEND:
 
-**iUrban** (Málaga, desde octubre de 2023 y trabajando actualmente en este proyecto). Trabajo en la plataforma de turismo inteligente. Mi desarrollo principal se basa en Angular y RxJS, aunque también trabajo con Vue.js, Ionic, SASS, Bootstrap 5, Git, npm, y HTML5, entre otras tecnologías
+**Rindus** (Málaga, desde junio de 2024 y trabajando actualmente en este proyecto). Formo parte del equipo de StiboDX como desarrollador de Angular, cuyo principal producto, denominado CUE, diseñado para grupos de comunicación que busquen optimizar sus procesos de creación y distribución de contenido en diferentes canales y formatos.
+
+**iUrban** (Málaga, desde octubre de 2023 a mayo de 2024). Trabajo en la plataforma de turismo inteligente. Mi desarrollo principal se basa en Angular y RxJS, aunque también trabajo con Vue.js, Ionic, SASS, Bootstrap 5, Git, npm, y HTML5, entre otras tecnologías
 
 **Maniak Fitness** (Málaga, desde abril de 2022 a septiembre de 2023). En este eCommerce de venta de material deportivo, utilicé principalmente Javascript(ES6), jQuery, y SASS, además de HTML5, twig, Bootstrap 5, npm, webpack, Postman, Git, y Docker
 
 **ExamenExam** (Málaga, desde noviembre de 2021 a marzo de 2022). Trabajé en el desarrollo de una web de matriculación de certificaciones de idiomas, utilizando principalmente Twig, jQuery y CSS, junto con HTML5, Bootstrap 4, npm y webpack
 
-OTRAS EXPERIENCIAS DESTACADAS:
+OTRAS EXPERIENCIAS DESTACADAS:,
 
 **Iskaypet** (Málaga, desde noviembre de 2018 a noviembre de 2021). Trabajé en el desarrollo de estrategias de marketing, gestión y distribución de material PLV, desarrollo de folletos promocionales y análisis de datos
 
